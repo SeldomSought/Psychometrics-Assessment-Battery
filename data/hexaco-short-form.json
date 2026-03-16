@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "description": "HEXACO Short-Form Item Bank — 96 items, 4 per facet, 24 facets across 6 domains. Novel, non-copyrighted items. 5-point Likert scale (1=Strongly Disagree, 5=Strongly Agree). Reverse-scored items: response = 6 - raw.",
+  "response_scale": {
+    "1": "Strongly Disagree",
+    "2": "Disagree",
+    "3": "Neither Agree nor Disagree",
+    "4": "Agree",
+    "5": "Strongly Agree"
+  },
+  "domains": {
+    "H": { "name": "Honesty-Humility", "facets": ["H1","H2","H3","H4"] },
+    "E": { "name": "Emotionality",     "facets": ["E1","E2","E3","E4"] },
+    "X": { "name": "eXtraversion",     "facets": ["X1","X2","X3","X4"] },
+    "A": { "name": "Agreeableness",    "facets": ["A1","A2","A3","A4"] },
+    "C": { "name": "Conscientiousness","facets": ["C1","C2","C3","C4"] },
+    "O": { "name": "Openness",         "facets": ["O1","O2","O3","O4"] }
+  },
+  "facet_names": {
+    "H1": "Sincerity",       "H2": "Fairness",         "H3": "Greed-Avoidance", "H4": "Modesty",
+    "E1": "Fearfulness",     "E2": "Anxiety",           "E3": "Dependence",      "E4": "Sentimentality",
+    "X1": "Social Self-Esteem","X2": "Social Boldness", "X3": "Sociability",     "X4": "Liveliness",
+    "A1": "Forgivingness",   "A2": "Gentleness",        "A3": "Flexibility",     "A4": "Patience",
+    "C1": "Organization",    "C2": "Diligence",         "C3": "Perfectionism",   "C4": "Prudence",
+    "O1": "Aesthetic Appreciation","O2": "Inquisitiveness","O3": "Creativity",  "O4": "Unconventionality"
+  },
+  "items": [
+    { "id": "H1_01", "domain": "H", "facet": "H1", "text": "I say what I genuinely think, even when my opinion isn't what others want to hear.", "keying": "standard" },
+    { "id": "H1_02", "domain": "H", "facet": "H1", "text": "I adjust my expressed opinions depending on who I'm talking to.", "keying": "reverse" },
+    { "id": "H1_03", "domain": "H", "facet": "H1", "text": "I present myself to others exactly as I am, without embellishment.", "keying": "standard" },
+    { "id": "H1_04", "domain": "H", "facet": "H1", "text": "I sometimes tell people what they want to hear rather than what I actually believe.", "keying": "reverse" },
+
+    { "id": "H2_01", "domain": "H", "facet": "H2", "text": "I would not take credit for something I didn't do, even if no one would find out.", "keying": "standard" },
+    { "id": "H2_02", "domain": "H", "facet": "H2", "text": "I occasionally bend the rules when it benefits me and the risk of getting caught is low.", "keying": "reverse" },
+    { "id": "H2_03", "domain": "H", "facet": "H2", "text": "I hold myself to the same standards I expect of others.", "keying": "standard" },
+    { "id": "H2_04", "domain": "H", "facet": "H2", "text": "If a cashier gave me too much change, I would likely keep it.", "keying": "reverse" },
+
+    { "id": "H3_01", "domain": "H", "facet": "H3", "text": "I don't place much value on owning expensive or luxurious things.", "keying": "standard" },
+    { "id": "H3_02", "domain": "H", "facet": "H3", "text": "I would be willing to compromise my ethics if the financial reward were large enough.", "keying": "reverse" },
+    { "id": "H3_03", "domain": "H", "facet": "H3", "text": "Being wealthy is not something I think about much.", "keying": "standard" },
+    { "id": "H3_04", "domain": "H", "facet": "H3", "text": "I sometimes feel envious of people who have more material things than I do.", "keying": "reverse" },
+
+    { "id": "H4_01", "domain": "H", "facet": "H4", "text": "I don't think of myself as particularly special compared to other people.", "keying": "standard" },
+    { "id": "H4_02", "domain": "H", "facet": "H4", "text": "I deserve more recognition than people typically give me.", "keying": "reverse" },
+    { "id": "H4_03", "domain": "H", "facet": "H4", "text": "I am uncomfortable when others lavish me with excessive praise.", "keying": "standard" },
+    { "id": "H4_04", "domain": "H", "facet": "H4", "text": "People who don't know me well would probably be impressed by my credentials and accomplishments.", "keying": "reverse" },
+
+    { "id": "E1_01", "domain": "E", "facet": "E1", "text": "The possibility of physical harm is enough to deter me from risky activities.", "keying": "standard" },
+    { "id": "E1_02", "domain": "E", "facet": "E1", "text": "I rarely worry about getting hurt in dangerous situations.", "keying": "reverse" },
+    { "id": "E1_03", "domain": "E", "facet": "E1", "text": "I am more cautious about personal safety than most people I know.", "keying": "standard" },
+    { "id": "E1_04", "domain": "E", "facet": "E1", "text": "Extreme sports or high-risk activities appeal to me.", "keying": "reverse" },
+
+    { "id": "E2_01", "domain": "E", "facet": "E2", "text": "I worry a great deal about things that might go wrong in the future.", "keying": "standard" },
+    { "id": "E2_02", "domain": "E", "facet": "E2", "text": "I tend not to stress about problems until they actually occur.", "keying": "reverse" },
+    { "id": "E2_03", "domain": "E", "facet": "E2", "text": "I feel nervous or uneasy even when things seem to be going fine.", "keying": "standard" },
+    { "id": "E2_04", "domain": "E", "facet": "E2", "text": "I rarely find myself lying awake at night because of worry.", "keying": "reverse" },
+
+    { "id": "E3_01", "domain": "E", "facet": "E3", "text": "When I'm under a lot of pressure, I need emotional support from others.", "keying": "standard" },
+    { "id": "E3_02", "domain": "E", "facet": "E3", "text": "I cope with stress just as well when I'm alone as when others are around.", "keying": "reverse" },
+    { "id": "E3_03", "domain": "E", "facet": "E3", "text": "I find it hard to deal with difficult situations without someone to lean on.", "keying": "standard" },
+    { "id": "E3_04", "domain": "E", "facet": "E3", "text": "I rarely need reassurance when facing personal challenges.", "keying": "reverse" },
+
+    { "id": "E4_01", "domain": "E", "facet": "E4", "text": "I feel strong emotional connections to the people I care about.", "keying": "standard" },
+    { "id": "E4_02", "domain": "E", "facet": "E4", "text": "I tend not to get emotionally invested in other people's problems.", "keying": "reverse" },
+    { "id": "E4_03", "domain": "E", "facet": "E4", "text": "The welfare of my close friends and family affects me deeply.", "keying": "standard" },
+    { "id": "E4_04", "domain": "E", "facet": "E4", "text": "I don't typically feel moved by others' distress or sadness.", "keying": "reverse" },
+
+    { "id": "X1_01", "domain": "X", "facet": "X1", "text": "I feel comfortable and confident in most social situations.", "keying": "standard" },
+    { "id": "X1_02", "domain": "X", "facet": "X1", "text": "I often feel that others are judging me negatively in social settings.", "keying": "reverse" },
+    { "id": "X1_03", "domain": "X", "facet": "X1", "text": "I generally like the person I am when I'm interacting with others.", "keying": "standard" },
+    { "id": "X1_04", "domain": "X", "facet": "X1", "text": "I am sometimes embarrassed by my own behavior in group settings.", "keying": "reverse" },
+
+    { "id": "X2_01", "domain": "X", "facet": "X2", "text": "I am comfortable speaking up in front of large groups of people.", "keying": "standard" },
+    { "id": "X2_02", "domain": "X", "facet": "X2", "text": "I avoid situations where I might be the center of attention.", "keying": "reverse" },
+    { "id": "X2_03", "domain": "X", "facet": "X2", "text": "Meeting new people in social situations comes easily to me.", "keying": "standard" },
+    { "id": "X2_04", "domain": "X", "facet": "X2", "text": "I feel awkward and self-conscious when I have to lead a group discussion.", "keying": "reverse" },
+
+    { "id": "X3_01", "domain": "X", "facet": "X3", "text": "I enjoy spending time in social gatherings and group activities.", "keying": "standard" },
+    { "id": "X3_02", "domain": "X", "facet": "X3", "text": "I find prolonged social interaction draining.", "keying": "reverse" },
+    { "id": "X3_03", "domain": "X", "facet": "X3", "text": "I actively seek out opportunities to be around other people.", "keying": "standard" },
+    { "id": "X3_04", "domain": "X", "facet": "X3", "text": "I prefer to spend my free time alone rather than with others.", "keying": "reverse" },
+
+    { "id": "X4_01", "domain": "X", "facet": "X4", "text": "I tend to have an enthusiastic and upbeat attitude most of the time.", "keying": "standard" },
+    { "id": "X4_02", "domain": "X", "facet": "X4", "text": "People rarely describe me as particularly energetic or animated.", "keying": "reverse" },
+    { "id": "X4_03", "domain": "X", "facet": "X4", "text": "I am often the person who keeps a group's energy and spirits up.", "keying": "standard" },
+    { "id": "X4_04", "domain": "X", "facet": "X4", "text": "My mood tends to be fairly flat and subdued on most days.", "keying": "reverse" },
+
+    { "id": "A1_01", "domain": "A", "facet": "A1", "text": "I am willing to forgive people who have treated me badly if they apologize sincerely.", "keying": "standard" },
+    { "id": "A1_02", "domain": "A", "facet": "A1", "text": "I hold onto resentment toward people who have wronged me.", "keying": "reverse" },
+    { "id": "A1_03", "domain": "A", "facet": "A1", "text": "Once someone has apologized genuinely, I let go of what they did.", "keying": "standard" },
+    { "id": "A1_04", "domain": "A", "facet": "A1", "text": "I find it difficult to move past feelings of anger toward someone who hurt me.", "keying": "reverse" },
+
+    { "id": "A2_01", "domain": "A", "facet": "A2", "text": "I try to be gentle when criticizing others, even when they need honest feedback.", "keying": "standard" },
+    { "id": "A2_02", "domain": "A", "facet": "A2", "text": "I am comfortable giving people blunt, unfiltered feedback.", "keying": "reverse" },
+    { "id": "A2_03", "domain": "A", "facet": "A2", "text": "I choose my words carefully when discussing sensitive topics with others.", "keying": "standard" },
+    { "id": "A2_04", "domain": "A", "facet": "A2", "text": "I can be quite harsh in my assessments of others when they have made mistakes.", "keying": "reverse" },
+
+    { "id": "A3_01", "domain": "A", "facet": "A3", "text": "I am open to changing my mind when someone presents a compelling argument.", "keying": "standard" },
+    { "id": "A3_02", "domain": "A", "facet": "A3", "text": "I find it frustrating when people challenge my opinions and beliefs.", "keying": "reverse" },
+    { "id": "A3_03", "domain": "A", "facet": "A3", "text": "I try to see merit in different perspectives, even ones I disagree with.", "keying": "standard" },
+    { "id": "A3_04", "domain": "A", "facet": "A3", "text": "I tend to stick firmly to my position once I have formed an opinion.", "keying": "reverse" },
+
+    { "id": "A4_01", "domain": "A", "facet": "A4", "text": "I stay calm and composed when dealing with slow or frustrating processes.", "keying": "standard" },
+    { "id": "A4_02", "domain": "A", "facet": "A4", "text": "I get irritated quickly when people are inefficient or make repeated mistakes.", "keying": "reverse" },
+    { "id": "A4_03", "domain": "A", "facet": "A4", "text": "I handle delays and setbacks without losing my temper.", "keying": "standard" },
+    { "id": "A4_04", "domain": "A", "facet": "A4", "text": "I find myself becoming annoyed when others don't do things correctly.", "keying": "reverse" },
+
+    { "id": "C1_01", "domain": "C", "facet": "C1", "text": "I keep my belongings and workspace tidy and well-organized.", "keying": "standard" },
+    { "id": "C1_02", "domain": "C", "facet": "C1", "text": "Clutter and disorganization don't particularly bother me.", "keying": "reverse" },
+    { "id": "C1_03", "domain": "C", "facet": "C1", "text": "I prefer to have a clear system for managing my tasks and responsibilities.", "keying": "standard" },
+    { "id": "C1_04", "domain": "C", "facet": "C1", "text": "My personal space is often messy or disorganized.", "keying": "reverse" },
+
+    { "id": "C2_01", "domain": "C", "facet": "C2", "text": "I work hard and consistently on tasks until they are completed.", "keying": "standard" },
+    { "id": "C2_02", "domain": "C", "facet": "C2", "text": "I often lose momentum or interest in tasks before finishing them.", "keying": "reverse" },
+    { "id": "C2_03", "domain": "C", "facet": "C2", "text": "I put in significant effort even when no one is watching.", "keying": "standard" },
+    { "id": "C2_04", "domain": "C", "facet": "C2", "text": "I sometimes take shortcuts rather than doing things thoroughly.", "keying": "reverse" },
+
+    { "id": "C3_01", "domain": "C", "facet": "C3", "text": "I have high standards for the quality of my own work.", "keying": "standard" },
+    { "id": "C3_02", "domain": "C", "facet": "C3", "text": "I am generally satisfied with work that is good enough, even if it's not perfect.", "keying": "reverse" },
+    { "id": "C3_03", "domain": "C", "facet": "C3", "text": "I notice and am bothered by small mistakes or imperfections in my work.", "keying": "standard" },
+    { "id": "C3_04", "domain": "C", "facet": "C3", "text": "I don't often go back to refine or polish work once I've completed it.", "keying": "reverse" },
+
+    { "id": "C4_01", "domain": "C", "facet": "C4", "text": "I think carefully about the consequences of my decisions before acting.", "keying": "standard" },
+    { "id": "C4_02", "domain": "C", "facet": "C4", "text": "I sometimes act impulsively without thinking through the implications.", "keying": "reverse" },
+    { "id": "C4_03", "domain": "C", "facet": "C4", "text": "I consider long-term outcomes, not just immediate benefits, when making choices.", "keying": "standard" },
+    { "id": "C4_04", "domain": "C", "facet": "C4", "text": "I tend to make decisions quickly, often without fully thinking them through.", "keying": "reverse" },
+
+    { "id": "O1_01", "domain": "O", "facet": "O1", "text": "I am moved or affected by beautiful music, visual art, or poetry.", "keying": "standard" },
+    { "id": "O1_02", "domain": "O", "facet": "O1", "text": "I don't particularly notice or care about the aesthetic quality of my surroundings.", "keying": "reverse" },
+    { "id": "O1_03", "domain": "O", "facet": "O1", "text": "I find beauty in everyday things that others often overlook.", "keying": "standard" },
+    { "id": "O1_04", "domain": "O", "facet": "O1", "text": "Art, music, and literature hold little interest for me.", "keying": "reverse" },
+
+    { "id": "O2_01", "domain": "O", "facet": "O2", "text": "I enjoy reading or learning about topics that have nothing to do with my daily life.", "keying": "standard" },
+    { "id": "O2_02", "domain": "O", "facet": "O2", "text": "I am content with the knowledge I already have and rarely seek out new ideas.", "keying": "reverse" },
+    { "id": "O2_03", "domain": "O", "facet": "O2", "text": "I find myself wondering about how things work, even when the topic isn't practical.", "keying": "standard" },
+    { "id": "O2_04", "domain": "O", "facet": "O2", "text": "I rarely seek out information beyond what's necessary for my immediate tasks.", "keying": "reverse" },
+
+    { "id": "O3_01", "domain": "O", "facet": "O3", "text": "I often come up with original ideas or novel approaches to problems.", "keying": "standard" },
+    { "id": "O3_02", "domain": "O", "facet": "O3", "text": "I tend to stick to conventional methods rather than inventing new ones.", "keying": "reverse" },
+    { "id": "O3_03", "domain": "O", "facet": "O3", "text": "I find creative expression or experimentation genuinely satisfying.", "keying": "standard" },
+    { "id": "O3_04", "domain": "O", "facet": "O3", "text": "People don't typically describe me as imaginative or creative.", "keying": "reverse" },
+
+    { "id": "O4_01", "domain": "O", "facet": "O4", "text": "I find myself drawn to ideas and people that don't fit conventional molds.", "keying": "standard" },
+    { "id": "O4_02", "domain": "O", "facet": "O4", "text": "I prefer to follow established norms rather than challenge them.", "keying": "reverse" },
+    { "id": "O4_03", "domain": "O", "facet": "O4", "text": "I question accepted assumptions and conventional wisdom regularly.", "keying": "standard" },
+    { "id": "O4_04", "domain": "O", "facet": "O4", "text": "I feel more comfortable with familiar, traditional ways of doing things.", "keying": "reverse" }
+  ]
+}

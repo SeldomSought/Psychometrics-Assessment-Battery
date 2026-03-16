@@ -1,0 +1,607 @@
+{
+  "version": "1.0",
+  "description": "Forced-Choice triplet blocks for Thurstonian IRT scoring. 100 blocks across all 10 HEXACO domain combinations (10 blocks per combo). Rank-order response: assign 1st, 2nd, 3rd to statements A, B, C. Scoring: first choice +2, second +1, third +0 per domain.",
+  "instructions": "For each block, rank the three statements from MOST like you (1st) to LEAST like you (3rd). Every statement must receive a unique rank.",
+  "blocks": [
+    {
+      "id": "B001", "combo": "H+E+X", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I stay honest about my opinions even when it costs me social approval." },
+      "B": { "domain": "E", "facet": "E2", "text": "I feel anxious about negative outcomes even when things are currently going smoothly." },
+      "C": { "domain": "X", "facet": "X2", "text": "I am at ease introducing myself to strangers in social situations." }
+    },
+    {
+      "id": "B002", "combo": "H+E+X", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I wouldn't accept a reward I hadn't earned, even if it were offered freely." },
+      "B": { "domain": "E", "facet": "E4", "text": "I feel genuinely moved when someone close to me is going through a hard time." },
+      "C": { "domain": "X", "facet": "X4", "text": "People tend to describe me as lively and full of energy." }
+    },
+    {
+      "id": "B003", "combo": "H+E+X", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "I rarely find myself coveting expensive things or the wealth of others." },
+      "B": { "domain": "E", "facet": "E1", "text": "I think carefully about the physical risks involved before doing something dangerous." },
+      "C": { "domain": "X", "facet": "X3", "text": "I enjoy being around people and seek out social situations when I can." }
+    },
+    {
+      "id": "B004", "combo": "H+E+X", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't think I'm more important or impressive than others." },
+      "B": { "domain": "E", "facet": "E3", "text": "When things get really difficult, I need the support of someone I trust." },
+      "C": { "domain": "X", "facet": "X1", "text": "I generally feel good about how I come across to others." }
+    },
+    {
+      "id": "B005", "combo": "H+E+X", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I never pretend to agree with someone just to avoid conflict." },
+      "B": { "domain": "E", "facet": "E2", "text": "Worry about future problems is something I live with on a daily basis." },
+      "C": { "domain": "X", "facet": "X2", "text": "Public speaking or presenting doesn't make me particularly nervous." }
+    },
+    {
+      "id": "B006", "combo": "H+E+X", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H2", "text": "I follow rules even when breaking them would benefit me and go unnoticed." },
+      "B": { "domain": "E", "facet": "E4", "text": "I deeply care about what happens to the people I love." },
+      "C": { "domain": "X", "facet": "X3", "text": "I find social gatherings energizing rather than draining." }
+    },
+    {
+      "id": "B007", "combo": "H+E+X", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H3", "text": "Accumulating wealth or luxury is not a priority in my life." },
+      "B": { "domain": "E", "facet": "E1", "text": "I am more risk-averse about physical danger than most of my peers." },
+      "C": { "domain": "X", "facet": "X4", "text": "I tend to be the most enthusiastic person in the room." }
+    },
+    {
+      "id": "B008", "combo": "H+E+X", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I am quick to deflect when people praise me too much." },
+      "B": { "domain": "E", "facet": "E3", "text": "Facing hard situations alone is more difficult for me than for most." },
+      "C": { "domain": "X", "facet": "X1", "text": "I feel at ease in social settings and rarely feel judged." }
+    },
+    {
+      "id": "B009", "combo": "H+E+X", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H1", "text": "I express my real views even in groups where my opinion is the minority." },
+      "B": { "domain": "E", "facet": "E2", "text": "I spend a noticeable amount of mental energy anticipating what could go wrong." },
+      "C": { "domain": "X", "facet": "X2", "text": "I volunteer to lead discussions or take the floor without much hesitation." }
+    },
+    {
+      "id": "B010", "combo": "H+E+X", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H2", "text": "I wouldn't exaggerate my own contributions when telling others about my work." },
+      "B": { "domain": "E", "facet": "E4", "text": "I am the kind of person who cries or feels choked up over others' emotional moments." },
+      "C": { "domain": "X", "facet": "X4", "text": "I bring a lot of positive energy when I walk into a room." }
+    },
+    {
+      "id": "B011", "combo": "H+A+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I hold myself to the same ethical standards I expect from others." },
+      "B": { "domain": "A", "facet": "A4", "text": "I remain patient with people who are slow or make repeated mistakes." },
+      "C": { "domain": "C", "facet": "C1", "text": "I keep my living and working spaces neat and organized." }
+    },
+    {
+      "id": "B012", "combo": "H+A+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H3", "text": "Material possessions and wealth don't hold much appeal for me." },
+      "B": { "domain": "A", "facet": "A1", "text": "When someone apologizes, I find it easier than most to let things go." },
+      "C": { "domain": "C", "facet": "C2", "text": "I maintain my effort and focus on tasks even when they get tedious." }
+    },
+    {
+      "id": "B013", "combo": "H+A+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H1", "text": "I don't change what I say based on who I'm talking to." },
+      "B": { "domain": "A", "facet": "A2", "text": "I soften criticism so it doesn't feel harsh, even when honesty is needed." },
+      "C": { "domain": "C", "facet": "C3", "text": "I notice small errors in my own work and feel compelled to fix them." }
+    },
+    {
+      "id": "B014", "combo": "H+A+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I genuinely don't see myself as more deserving than anyone else." },
+      "B": { "domain": "A", "facet": "A3", "text": "I update my views readily when someone gives me a good argument." },
+      "C": { "domain": "C", "facet": "C4", "text": "I plan carefully before acting and rarely make impulsive decisions." }
+    },
+    {
+      "id": "B015", "combo": "H+A+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I wouldn't keep a mistake in my favor that benefits me at someone else's expense." },
+      "B": { "domain": "A", "facet": "A4", "text": "Long waits or slow processes don't tend to irritate me." },
+      "C": { "domain": "C", "facet": "C1", "text": "A tidy environment helps me think clearly and work well." }
+    },
+    {
+      "id": "B016", "combo": "H+A+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "I don't feel a strong pull toward social status or expensive things." },
+      "B": { "domain": "A", "facet": "A1", "text": "I would rather let a conflict go than hold a grudge against someone." },
+      "C": { "domain": "C", "facet": "C2", "text": "When I commit to a task, I see it through even if it becomes harder than expected." }
+    },
+    {
+      "id": "B017", "combo": "H+A+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H1", "text": "I say what I mean, not what people want to hear from me." },
+      "B": { "domain": "A", "facet": "A2", "text": "I go out of my way to avoid saying things that might wound someone's feelings." },
+      "C": { "domain": "C", "facet": "C3", "text": "I set high standards for my own output and feel unsatisfied when they aren't met." }
+    },
+    {
+      "id": "B018", "combo": "H+A+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I feel awkward receiving a lot of praise and try to redirect attention." },
+      "B": { "domain": "A", "facet": "A3", "text": "I can hold two opposing viewpoints in my head without becoming defensive." },
+      "C": { "domain": "C", "facet": "C4", "text": "I think about the long-term consequences before I make significant decisions." }
+    },
+    {
+      "id": "B019", "combo": "H+A+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H2", "text": "I would correct an error in my favor even if no one else would ever notice it." },
+      "B": { "domain": "A", "facet": "A4", "text": "I stay composed when someone else's slowness or error affects my plans." },
+      "C": { "domain": "C", "facet": "C1", "text": "I create systems to keep track of my work and belongings reliably." }
+    },
+    {
+      "id": "B020", "combo": "H+A+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H3", "text": "I'm not really motivated by the idea of becoming rich or famous." },
+      "B": { "domain": "A", "facet": "A1", "text": "I can forgive someone who has genuinely hurt me if they show real remorse." },
+      "C": { "domain": "C", "facet": "C2", "text": "I work just as hard when no one is monitoring my progress as when they are." }
+    },
+    {
+      "id": "B021", "combo": "E+X+O", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E3", "text": "I need emotional reassurance from others when things get difficult." },
+      "B": { "domain": "X", "facet": "X3", "text": "I often find myself seeking out the company of others in my free time." },
+      "C": { "domain": "O", "facet": "O2", "text": "I am drawn to philosophical questions and abstract ideas even when they aren't practical." }
+    },
+    {
+      "id": "B022", "combo": "E+X+O", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E1", "text": "I am cautious about physical risk in a way that most people around me are not." },
+      "B": { "domain": "X", "facet": "X1", "text": "I feel confident and at ease when I'm with other people." },
+      "C": { "domain": "O", "facet": "O3", "text": "I tend to generate novel ideas or unusual solutions to problems." }
+    },
+    {
+      "id": "B023", "combo": "E+X+O", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E2", "text": "I live with a background level of worry about what might go wrong." },
+      "B": { "domain": "X", "facet": "X4", "text": "I have more energy and enthusiasm than most of the people around me." },
+      "C": { "domain": "O", "facet": "O1", "text": "I find beauty or meaning in art, music, and the natural world." }
+    },
+    {
+      "id": "B024", "combo": "E+X+O", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E4", "text": "I feel strong empathy and emotional connection to the people I love." },
+      "B": { "domain": "X", "facet": "X2", "text": "Taking the lead in a conversation or presentation feels natural to me." },
+      "C": { "domain": "O", "facet": "O4", "text": "I am attracted to unconventional ideas, art, and lifestyles." }
+    },
+    {
+      "id": "B025", "combo": "E+X+O", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E3", "text": "Handling hard times is much easier for me when someone is there to support me." },
+      "B": { "domain": "X", "facet": "X3", "text": "I recharge through being with people rather than through solitude." },
+      "C": { "domain": "O", "facet": "O2", "text": "I regularly read or explore topics well outside my professional field." }
+    },
+    {
+      "id": "B026", "combo": "E+X+O", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E1", "text": "I weigh physical dangers seriously before participating in risky activities." },
+      "B": { "domain": "X", "facet": "X1", "text": "I am not self-conscious in social situations and feel comfortable being myself." },
+      "C": { "domain": "O", "facet": "O3", "text": "I enjoy experimenting with creative approaches even when the conventional path is obvious." }
+    },
+    {
+      "id": "B027", "combo": "E+X+O", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E2", "text": "I find myself ruminating about potential problems even when things are fine." },
+      "B": { "domain": "X", "facet": "X4", "text": "My enthusiasm and positive energy are something people around me notice." },
+      "C": { "domain": "O", "facet": "O1", "text": "Aesthetics — in spaces, art, or design — genuinely matter to me." }
+    },
+    {
+      "id": "B028", "combo": "E+X+O", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E4", "text": "Other people's suffering affects me personally, not just intellectually." },
+      "B": { "domain": "X", "facet": "X2", "text": "I don't feel hesitant about speaking up in front of an audience." },
+      "C": { "domain": "O", "facet": "O4", "text": "I often find myself questioning norms that others take for granted." }
+    },
+    {
+      "id": "B029", "combo": "E+X+O", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E3", "text": "I rely on others for emotional grounding when life gets especially stressful." },
+      "B": { "domain": "X", "facet": "X3", "text": "Social interaction is something I look forward to, not something I endure." },
+      "C": { "domain": "O", "facet": "O2", "text": "My curiosity takes me into subjects that have no immediate use in my life." }
+    },
+    {
+      "id": "B030", "combo": "E+X+O", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E1", "text": "I am more concerned about physical safety than most people I know." },
+      "B": { "domain": "X", "facet": "X1", "text": "I like myself in social settings and rarely feel out of place." },
+      "C": { "domain": "O", "facet": "O3", "text": "Creative thinking and original ideas are central to how I approach work." }
+    },
+    {
+      "id": "B031", "combo": "H+E+A", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I present myself authentically without managing others' impressions of me." },
+      "B": { "domain": "E", "facet": "E4", "text": "I feel deep concern for the wellbeing of people close to me." },
+      "C": { "domain": "A", "facet": "A4", "text": "I maintain my composure even when others are slow or inefficient." }
+    },
+    {
+      "id": "B032", "combo": "H+E+A", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "I don't spend much time thinking about what I could buy or own." },
+      "B": { "domain": "E", "facet": "E2", "text": "Anxiety about the future is something I deal with on a regular basis." },
+      "C": { "domain": "A", "facet": "A1", "text": "I believe forgiveness is more valuable than holding onto hurt." }
+    },
+    {
+      "id": "B033", "combo": "H+E+A", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I have a realistic, non-inflated view of my own importance." },
+      "B": { "domain": "E", "facet": "E1", "text": "I take physical risks more seriously than many people around me." },
+      "C": { "domain": "A", "facet": "A2", "text": "I choose words carefully to avoid causing unnecessary emotional pain." }
+    },
+    {
+      "id": "B034", "combo": "H+E+A", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I live by a consistent personal code even when no one else would know if I didn't." },
+      "B": { "domain": "E", "facet": "E3", "text": "Emotional closeness to others is something I rely on in hard times." },
+      "C": { "domain": "A", "facet": "A3", "text": "Good arguments move me to reconsider positions I've held for a long time." }
+    },
+    {
+      "id": "B035", "combo": "H+E+A", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H1", "text": "I'd rather say something unpopular than pretend to agree." },
+      "B": { "domain": "E", "facet": "E4", "text": "My emotional life is closely tied to the wellbeing of those around me." },
+      "C": { "domain": "A", "facet": "A4", "text": "I don't let frustration show when things take longer than they should." }
+    },
+    {
+      "id": "B036", "combo": "H+E+A", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H3", "text": "Fame and fortune aren't things I think about wanting." },
+      "B": { "domain": "E", "facet": "E2", "text": "I often worry about things even when there is no clear reason to." },
+      "C": { "domain": "A", "facet": "A1", "text": "I don't carry resentment forward once someone has made amends." }
+    },
+    {
+      "id": "B037", "combo": "H+E+A", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't consider myself particularly remarkable or special." },
+      "B": { "domain": "E", "facet": "E1", "text": "Physical danger is something I take more seriously than most." },
+      "C": { "domain": "A", "facet": "A2", "text": "I take care with how I phrase difficult things to protect others' feelings." }
+    },
+    {
+      "id": "B038", "combo": "H+E+A", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H2", "text": "Even when bending a rule would benefit me, I tend to follow it." },
+      "B": { "domain": "E", "facet": "E3", "text": "Having someone to lean on emotionally makes a big difference when I'm struggling." },
+      "C": { "domain": "A", "facet": "A3", "text": "I keep an open mind even on topics where I already have strong views." }
+    },
+    {
+      "id": "B039", "combo": "H+E+A", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H1", "text": "I'm consistent in how I present myself regardless of the audience." },
+      "B": { "domain": "E", "facet": "E4", "text": "I am emotionally invested in the lives of the people I'm closest to." },
+      "C": { "domain": "A", "facet": "A4", "text": "I rarely lose patience with slow systems or unhelpful processes." }
+    },
+    {
+      "id": "B040", "combo": "H+E+A", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H3", "text": "I'm not particularly motivated by the idea of being rich or well-off." },
+      "B": { "domain": "E", "facet": "E2", "text": "Worry is something I experience even when life is objectively going well." },
+      "C": { "domain": "A", "facet": "A1", "text": "I am able to move past wrongs when the other person has genuinely tried to make it right." }
+    },
+    {
+      "id": "B041", "combo": "H+E+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I'm transparent about who I am and don't play a different role for different audiences." },
+      "B": { "domain": "E", "facet": "E2", "text": "I experience worry and anxiety more than most people I know." },
+      "C": { "domain": "C", "facet": "C2", "text": "I follow through on commitments even when no one would notice if I didn't." }
+    },
+    {
+      "id": "B042", "combo": "H+E+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H4", "text": "I feel uncomfortable being singled out for praise I don't think I've fully earned." },
+      "B": { "domain": "E", "facet": "E1", "text": "I give safety risks serious weight before acting." },
+      "C": { "domain": "C", "facet": "C4", "text": "I think through consequences before I make significant choices." }
+    },
+    {
+      "id": "B043", "combo": "H+E+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H2", "text": "I apply the same ethical standards to myself as I would expect from anyone else." },
+      "B": { "domain": "E", "facet": "E4", "text": "I feel strong emotional ties to the people who matter to me." },
+      "C": { "domain": "C", "facet": "C1", "text": "I maintain orderly systems at home and at work." }
+    },
+    {
+      "id": "B044", "combo": "H+E+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H3", "text": "Owning luxury goods is not something I aspire to." },
+      "B": { "domain": "E", "facet": "E3", "text": "Emotional support from people I trust is essential to me in times of stress." },
+      "C": { "domain": "C", "facet": "C3", "text": "I notice when the quality of my work slips and I feel driven to correct it." }
+    },
+    {
+      "id": "B045", "combo": "H+E+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H1", "text": "I express my genuine opinions even in social situations where they are unpopular." },
+      "B": { "domain": "E", "facet": "E2", "text": "I anticipate problems and worry about them even when they haven't happened yet." },
+      "C": { "domain": "C", "facet": "C2", "text": "I put in maximum effort on tasks whether or not anyone is evaluating me." }
+    },
+    {
+      "id": "B046", "combo": "H+E+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't think of myself as standing out above others in any particular way." },
+      "B": { "domain": "E", "facet": "E1", "text": "I decline risky activities others find exciting because I take the danger seriously." },
+      "C": { "domain": "C", "facet": "C4", "text": "I weigh potential downsides carefully before committing to a course of action." }
+    },
+    {
+      "id": "B047", "combo": "H+E+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I wouldn't fabricate or inflate information even if it helped me get what I want." },
+      "B": { "domain": "E", "facet": "E4", "text": "I am moved by others' emotional pain in a way that feels visceral, not distant." },
+      "C": { "domain": "C", "facet": "C1", "text": "I feel better when my environment is tidy and well-organized." }
+    },
+    {
+      "id": "B048", "combo": "H+E+C", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "I rarely envy people for what they have materially." },
+      "B": { "domain": "E", "facet": "E3", "text": "I lean on others for emotional stability when I'm going through something difficult." },
+      "C": { "domain": "C", "facet": "C3", "text": "I revisit my work to look for errors or places where it could be better." }
+    },
+    {
+      "id": "B049", "combo": "H+E+C", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H1", "text": "I say what I mean to people, not what I think they want to hear." },
+      "B": { "domain": "E", "facet": "E2", "text": "I tend to imagine worst-case scenarios even when things are going reasonably well." },
+      "C": { "domain": "C", "facet": "C2", "text": "I do not cut corners when doing work that I've committed to." }
+    },
+    {
+      "id": "B050", "combo": "H+E+C", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I'm modest about my abilities and don't try to impress others with my credentials." },
+      "B": { "domain": "E", "facet": "E1", "text": "I am more aware of risk and personal safety than most people I spend time with." },
+      "C": { "domain": "C", "facet": "C4", "text": "I don't make important decisions on impulse — I think them through first." }
+    },
+    {
+      "id": "B051", "combo": "X+A+O", "sd_level": "medium",
+      "A": { "domain": "X", "facet": "X4", "text": "I feel energized and enthusiastic in most areas of my life." },
+      "B": { "domain": "A", "facet": "A1", "text": "I would rather forgive than carry a grudge." },
+      "C": { "domain": "O", "facet": "O3", "text": "I actively seek out creative and novel approaches to problems." }
+    },
+    {
+      "id": "B052", "combo": "X+A+O", "sd_level": "low",
+      "A": { "domain": "X", "facet": "X2", "text": "I feel comfortable being the center of attention in a group." },
+      "B": { "domain": "A", "facet": "A3", "text": "I genuinely enjoy having my positions challenged when the argument is good." },
+      "C": { "domain": "O", "facet": "O1", "text": "I appreciate beauty in art, music, and the natural world." }
+    },
+    {
+      "id": "B053", "combo": "X+A+O", "sd_level": "high",
+      "A": { "domain": "X", "facet": "X1", "text": "I feel socially competent and at ease with others." },
+      "B": { "domain": "A", "facet": "A2", "text": "I'm thoughtful about how I deliver difficult feedback to protect feelings." },
+      "C": { "domain": "O", "facet": "O4", "text": "I question conventional norms more than most people do." }
+    },
+    {
+      "id": "B054", "combo": "X+A+O", "sd_level": "medium",
+      "A": { "domain": "X", "facet": "X3", "text": "Being around people is something I genuinely enjoy and seek out." },
+      "B": { "domain": "A", "facet": "A4", "text": "I keep my patience even in frustrating situations." },
+      "C": { "domain": "O", "facet": "O2", "text": "I am drawn to ideas and topics outside my own field or expertise." }
+    },
+    {
+      "id": "B055", "combo": "X+A+O", "sd_level": "low",
+      "A": { "domain": "X", "facet": "X4", "text": "People often remark on my energy and enthusiasm." },
+      "B": { "domain": "A", "facet": "A1", "text": "Letting go of anger toward people who've hurt me comes naturally to me." },
+      "C": { "domain": "O", "facet": "O3", "text": "My imagination is one of the things people notice about me." }
+    },
+    {
+      "id": "B056", "combo": "X+A+O", "sd_level": "high",
+      "A": { "domain": "X", "facet": "X2", "text": "I lead or present in group settings without significant anxiety." },
+      "B": { "domain": "A", "facet": "A3", "text": "I can genuinely adopt another person's perspective when they explain it well." },
+      "C": { "domain": "O", "facet": "O1", "text": "Aesthetic quality matters to me in my environment and the things I own." }
+    },
+    {
+      "id": "B057", "combo": "X+A+O", "sd_level": "medium",
+      "A": { "domain": "X", "facet": "X1", "text": "I'm comfortable in my own skin when I'm around other people." },
+      "B": { "domain": "A", "facet": "A2", "text": "I try not to say things that might sting, even when they're true." },
+      "C": { "domain": "O", "facet": "O4", "text": "I'm attracted to things that are unusual, niche, or outside the mainstream." }
+    },
+    {
+      "id": "B058", "combo": "X+A+O", "sd_level": "low",
+      "A": { "domain": "X", "facet": "X3", "text": "I am a person who finds socializing genuinely fulfilling." },
+      "B": { "domain": "A", "facet": "A4", "text": "I can wait without frustration when things don't move at the pace I'd like." },
+      "C": { "domain": "O", "facet": "O2", "text": "I actively pursue knowledge for its own sake, not just for practical value." }
+    },
+    {
+      "id": "B059", "combo": "X+A+O", "sd_level": "high",
+      "A": { "domain": "X", "facet": "X4", "text": "I am typically the most enthusiastic or upbeat person in a group." },
+      "B": { "domain": "A", "facet": "A1", "text": "I don't stay angry at people after they've genuinely apologized." },
+      "C": { "domain": "O", "facet": "O3", "text": "I take pleasure in finding new ways to do things even when old ways work fine." }
+    },
+    {
+      "id": "B060", "combo": "X+A+O", "sd_level": "medium",
+      "A": { "domain": "X", "facet": "X2", "text": "I feel no significant anxiety about standing up and speaking in public." },
+      "B": { "domain": "A", "facet": "A3", "text": "I revise my views when the evidence or argument warrants it." },
+      "C": { "domain": "O", "facet": "O1", "text": "I slow down to appreciate beautiful things more than most people do." }
+    },
+    {
+      "id": "B061", "combo": "H+X+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H3", "text": "Avoiding acquisitiveness is something I feel genuine about, not just performative." },
+      "B": { "domain": "X", "facet": "X2", "text": "I am comfortable being singled out or called upon in group settings." },
+      "C": { "domain": "O", "facet": "O1", "text": "I appreciate beauty in art, music, and nature more than most." }
+    },
+    {
+      "id": "B062", "combo": "H+X+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H1", "text": "I'm transparent with people even when it would be easier to be vague." },
+      "B": { "domain": "X", "facet": "X4", "text": "I bring energy and animation to groups I'm part of." },
+      "C": { "domain": "O", "facet": "O4", "text": "I find unconventional thinking and unorthodox approaches appealing." }
+    },
+    {
+      "id": "B063", "combo": "H+X+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I genuinely do not see myself as better or more important than others." },
+      "B": { "domain": "X", "facet": "X3", "text": "Social activity is something that energizes me." },
+      "C": { "domain": "O", "facet": "O2", "text": "I follow threads of curiosity into subjects with no obvious practical application." }
+    },
+    {
+      "id": "B064", "combo": "H+X+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "My personal ethics don't bend based on who's watching." },
+      "B": { "domain": "X", "facet": "X1", "text": "I'm not particularly self-conscious in social situations." },
+      "C": { "domain": "O", "facet": "O3", "text": "I enjoy thinking up original ideas even in areas outside my expertise." }
+    },
+    {
+      "id": "B065", "combo": "H+X+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "My life goals don't revolve around wealth or material acquisition." },
+      "B": { "domain": "X", "facet": "X2", "text": "Presenting or performing in front of others doesn't make me anxious." },
+      "C": { "domain": "O", "facet": "O1", "text": "The aesthetic dimension of my environment matters to me." }
+    },
+    {
+      "id": "B066", "combo": "H+X+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H1", "text": "I'm the same person in private as I am in public." },
+      "B": { "domain": "X", "facet": "X4", "text": "Others would describe me as lively and full of spirit." },
+      "C": { "domain": "O", "facet": "O4", "text": "I'm curious about lifestyles and ways of thinking that diverge from the mainstream." }
+    },
+    {
+      "id": "B067", "combo": "H+X+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't think I deserve special treatment or exceptional credit." },
+      "B": { "domain": "X", "facet": "X3", "text": "I am someone who enjoys spending time with people more than alone." },
+      "C": { "domain": "O", "facet": "O2", "text": "I read and explore broadly, driven by curiosity rather than necessity." }
+    },
+    {
+      "id": "B068", "combo": "H+X+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H2", "text": "I would point out an error in my favor rather than quietly benefit from it." },
+      "B": { "domain": "X", "facet": "X1", "text": "I feel comfortable and confident when I'm interacting with others." },
+      "C": { "domain": "O", "facet": "O3", "text": "Being creative and original is central to how I like to work." }
+    },
+    {
+      "id": "B069", "combo": "H+X+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H3", "text": "The idea of accumulating wealth doesn't motivate me particularly." },
+      "B": { "domain": "X", "facet": "X2", "text": "Speaking up in large group settings feels natural to me." },
+      "C": { "domain": "O", "facet": "O1", "text": "I seek out beauty in everyday experiences." }
+    },
+    {
+      "id": "B070", "combo": "H+X+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I don't perform a different version of myself for different social contexts." },
+      "B": { "domain": "X", "facet": "X4", "text": "My baseline energy level is higher than most people around me." },
+      "C": { "domain": "O", "facet": "O4", "text": "I find challenge in conventional thinking a source of curiosity rather than discomfort." }
+    },
+    {
+      "id": "B071", "combo": "E+A+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E1", "text": "I am more aware of and cautious about physical risk than most people I know." },
+      "B": { "domain": "A", "facet": "A2", "text": "I soften my language when I know what I need to say might be painful." },
+      "C": { "domain": "C", "facet": "C4", "text": "I plan carefully and rarely act on impulse when it matters." }
+    },
+    {
+      "id": "B072", "combo": "E+A+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E4", "text": "My emotional life is strongly linked to the people I'm close to." },
+      "B": { "domain": "A", "facet": "A4", "text": "I keep frustration in check even when things don't go at the pace I'd like." },
+      "C": { "domain": "C", "facet": "C1", "text": "I like having systems in place to keep things ordered." }
+    },
+    {
+      "id": "B073", "combo": "E+A+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E2", "text": "I have a running background of worry about future problems." },
+      "B": { "domain": "A", "facet": "A1", "text": "I believe forgiving people who've made amends is better than holding onto anger." },
+      "C": { "domain": "C", "facet": "C2", "text": "I work hard at things I've committed to, regardless of whether anyone is watching." }
+    },
+    {
+      "id": "B074", "combo": "E+A+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E3", "text": "I rely on others to help me stay grounded when stress mounts." },
+      "B": { "domain": "A", "facet": "A3", "text": "I am genuinely open to updating my views when given good reasons." },
+      "C": { "domain": "C", "facet": "C3", "text": "I set the bar high for what I consider acceptable in my own work." }
+    },
+    {
+      "id": "B075", "combo": "E+A+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E1", "text": "Risk to physical safety is something I take seriously before proceeding." },
+      "B": { "domain": "A", "facet": "A2", "text": "I frame difficult things carefully to minimize unnecessary hurt." },
+      "C": { "domain": "C", "facet": "C4", "text": "I weigh options and think through consequences before making big decisions." }
+    },
+    {
+      "id": "B076", "combo": "E+A+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E4", "text": "I feel the joy and pain of those I care about almost as if it were my own." },
+      "B": { "domain": "A", "facet": "A4", "text": "I can tolerate frustrating delays without it affecting my mood or relationships." },
+      "C": { "domain": "C", "facet": "C1", "text": "Organization is something I invest in because it improves how I work." }
+    },
+    {
+      "id": "B077", "combo": "E+A+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E2", "text": "I tend to borrow trouble mentally — worrying about things before they happen." },
+      "B": { "domain": "A", "facet": "A1", "text": "I don't carry hurt forward after someone has genuinely tried to make things right." },
+      "C": { "domain": "C", "facet": "C2", "text": "My level of effort doesn't depend on who's watching or evaluating me." }
+    },
+    {
+      "id": "B078", "combo": "E+A+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E3", "text": "Being supported by others is crucial to my functioning in hard times." },
+      "B": { "domain": "A", "facet": "A3", "text": "I don't dig in when I'm challenged — I consider whether the challenge has merit." },
+      "C": { "domain": "C", "facet": "C3", "text": "I am bothered by imperfections in my own output and strive to fix them." }
+    },
+    {
+      "id": "B079", "combo": "E+A+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E1", "text": "I avoid activities that most people find thrilling because I take the risks seriously." },
+      "B": { "domain": "A", "facet": "A2", "text": "My instinct when delivering bad news is to frame it in a way that cushions the impact." },
+      "C": { "domain": "C", "facet": "C4", "text": "I resist impulsive decisions and think ahead when it matters." }
+    },
+    {
+      "id": "B080", "combo": "E+A+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E4", "text": "I am emotionally connected to the people who matter to me in a deep way." },
+      "B": { "domain": "A", "facet": "A4", "text": "I stay composed and patient when outcomes don't align with my expectations." },
+      "C": { "domain": "C", "facet": "C1", "text": "I prefer orderly environments and invest effort in maintaining them." }
+    },
+    {
+      "id": "B081", "combo": "H+A+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't consider myself particularly important or impressive compared to others." },
+      "B": { "domain": "A", "facet": "A3", "text": "I update my views when someone gives me a strong counterargument." },
+      "C": { "domain": "O", "facet": "O4", "text": "I am drawn to unconventional people, art, and ways of living." }
+    },
+    {
+      "id": "B082", "combo": "H+A+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H2", "text": "I live by a personal ethical code that I apply even when it's inconvenient." },
+      "B": { "domain": "A", "facet": "A1", "text": "When someone has genuinely apologized, I find it natural to forgive them." },
+      "C": { "domain": "O", "facet": "O2", "text": "I explore ideas well beyond the scope of what my life requires." }
+    },
+    {
+      "id": "B083", "combo": "H+A+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H1", "text": "I'm straightforward about my views, even when they are unpopular." },
+      "B": { "domain": "A", "facet": "A2", "text": "I take care not to say things that could hurt people unnecessarily." },
+      "C": { "domain": "O", "facet": "O3", "text": "I am inventive in how I approach problems and challenges." }
+    },
+    {
+      "id": "B084", "combo": "H+A+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H3", "text": "Material success is not a driving force in how I make decisions." },
+      "B": { "domain": "A", "facet": "A4", "text": "I stay patient even when I'd prefer things moved faster." },
+      "C": { "domain": "O", "facet": "O1", "text": "Beauty and aesthetics genuinely matter to me in my everyday life." }
+    },
+    {
+      "id": "B085", "combo": "H+A+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H4", "text": "I am uncomfortable being treated as superior or more deserving than others." },
+      "B": { "domain": "A", "facet": "A3", "text": "A well-reasoned argument can genuinely change my mind." },
+      "C": { "domain": "O", "facet": "O4", "text": "I find myself questioning norms that most people take for granted." }
+    },
+    {
+      "id": "B086", "combo": "H+A+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H2", "text": "I hold myself accountable to the same rules I expect everyone else to follow." },
+      "B": { "domain": "A", "facet": "A1", "text": "Forgiveness, when genuinely earned, comes easier to me than resentment." },
+      "C": { "domain": "O", "facet": "O2", "text": "I am driven by curiosity to learn things that have no immediate use." }
+    },
+    {
+      "id": "B087", "combo": "H+A+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H1", "text": "I say what I actually think, not what my audience wants to hear." },
+      "B": { "domain": "A", "facet": "A2", "text": "I choose my words with care when I know a topic is sensitive." },
+      "C": { "domain": "O", "facet": "O3", "text": "I gravitate toward original, creative solutions over conventional ones." }
+    },
+    {
+      "id": "B088", "combo": "H+A+O", "sd_level": "low",
+      "A": { "domain": "H", "facet": "H3", "text": "Wealth and luxury hold little appeal compared to more meaningful pursuits." },
+      "B": { "domain": "A", "facet": "A4", "text": "I don't get irritated when people or processes move slowly." },
+      "C": { "domain": "O", "facet": "O1", "text": "I regularly pause to appreciate aesthetic qualities others might overlook." }
+    },
+    {
+      "id": "B089", "combo": "H+A+O", "sd_level": "high",
+      "A": { "domain": "H", "facet": "H4", "text": "I don't seek to impress others with my accomplishments or status." },
+      "B": { "domain": "A", "facet": "A3", "text": "I enjoy intellectual challenges even when they disrupt my current beliefs." },
+      "C": { "domain": "O", "facet": "O4", "text": "I'm more comfortable with unconventional ideas than with rigid norms." }
+    },
+    {
+      "id": "B090", "combo": "H+A+O", "sd_level": "medium",
+      "A": { "domain": "H", "facet": "H2", "text": "I would call out my own mistake even if keeping quiet would benefit me." },
+      "B": { "domain": "A", "facet": "A1", "text": "I can release anger toward people who've shown real remorse." },
+      "C": { "domain": "O", "facet": "O2", "text": "My curiosity takes me far outside my immediate professional or personal context." }
+    },
+    {
+      "id": "B091", "combo": "E+X+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E4", "text": "I am highly emotionally connected to the people who matter most to me." },
+      "B": { "domain": "X", "facet": "X1", "text": "I generally feel good about myself in social situations." },
+      "C": { "domain": "C", "facet": "C3", "text": "I hold my work to a high standard and notice when quality slips." }
+    },
+    {
+      "id": "B092", "combo": "E+X+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E2", "text": "I worry about negative outcomes even when current circumstances are stable." },
+      "B": { "domain": "X", "facet": "X4", "text": "People around me often comment on my energy and enthusiasm." },
+      "C": { "domain": "C", "facet": "C1", "text": "I maintain organized systems because disorder affects my effectiveness." }
+    },
+    {
+      "id": "B093", "combo": "E+X+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E1", "text": "I am alert to physical risk in a way most of my peers are not." },
+      "B": { "domain": "X", "facet": "X3", "text": "Time spent with others is something I genuinely look forward to." },
+      "C": { "domain": "C", "facet": "C2", "text": "I see tasks through to completion even when interest starts to fade." }
+    },
+    {
+      "id": "B094", "combo": "E+X+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E3", "text": "I find stressful periods much harder to cope with when I'm on my own." },
+      "B": { "domain": "X", "facet": "X2", "text": "I step into leadership roles in group settings without hesitation." },
+      "C": { "domain": "C", "facet": "C4", "text": "Before acting, I consider the downstream effects carefully." }
+    },
+    {
+      "id": "B095", "combo": "E+X+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E4", "text": "What happens to the people I love affects me deeply." },
+      "B": { "domain": "X", "facet": "X1", "text": "I feel at home in social situations and rarely feel awkward." },
+      "C": { "domain": "C", "facet": "C3", "text": "I feel dissatisfied when my work falls below the standard I've set for myself." }
+    },
+    {
+      "id": "B096", "combo": "E+X+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E2", "text": "Anxiety about future scenarios is something I experience regularly." },
+      "B": { "domain": "X", "facet": "X4", "text": "My default mood is enthusiastic and animated rather than quiet or subdued." },
+      "C": { "domain": "C", "facet": "C1", "text": "A clean and organized space is important to how I function." }
+    },
+    {
+      "id": "B097", "combo": "E+X+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E1", "text": "Safety concerns genuinely deter me from things others find exciting." },
+      "B": { "domain": "X", "facet": "X3", "text": "Social interaction is a source of energy for me, not a drain." },
+      "C": { "domain": "C", "facet": "C2", "text": "I invest the same effort whether or not anyone will notice." }
+    },
+    {
+      "id": "B098", "combo": "E+X+C", "sd_level": "low",
+      "A": { "domain": "E", "facet": "E3", "text": "Emotional support from others is crucial when I'm going through difficult times." },
+      "B": { "domain": "X", "facet": "X2", "text": "I am at ease in the spotlight and don't shy away from visibility." },
+      "C": { "domain": "C", "facet": "C4", "text": "I don't rush major decisions without first thinking them through carefully." }
+    },
+    {
+      "id": "B099", "combo": "E+X+C", "sd_level": "high",
+      "A": { "domain": "E", "facet": "E4", "text": "I empathize with those I love so deeply that their struggles feel personal to me." },
+      "B": { "domain": "X", "facet": "X1", "text": "I am not self-conscious with others and generally like how I come across socially." },
+      "C": { "domain": "C", "facet": "C3", "text": "I notice and correct small quality issues that others might overlook." }
+    },
+    {
+      "id": "B100", "combo": "E+X+C", "sd_level": "medium",
+      "A": { "domain": "E", "facet": "E2", "text": "I imagine negative future scenarios more often than most people would." },
+      "B": { "domain": "X", "facet": "X4", "text": "Others describe me as enthusiastic, lively, and full of positive energy." },
+      "C": { "domain": "C", "facet": "C2", "text": "I stay committed and put in maximum effort, regardless of recognition." }
+    }
+  ]
+}

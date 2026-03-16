@@ -1,0 +1,126 @@
+{
+  "blueprint_version": "1.0",
+  "title": "Integrated Psychometric Assessment Battery",
+  "description": "Modular, IRT-compatible assessment battery covering personality (HEXACO), forced-choice personality (Thurstonian IRT), situational judgment, cognitive aptitude, occupational interests (RIASEC), and personal values (Schwartz 19).",
+  "intended_uses": [
+    "Personal self-knowledge and reflection",
+    "Occupational fit exploration",
+    "Research and academic study of personality structure",
+    "Pilot data collection for IRT calibration"
+  ],
+  "out_of_scope_uses": [
+    "Clinical diagnosis or mental health classification",
+    "High-stakes employment selection without additional validity evidence",
+    "Medical or neurological assessment",
+    "Any use requiring legally defensible standardized testing"
+  ],
+  "modules": {
+    "M1_HEXACO_SHORT": {
+      "label": "HEXACO Personality Short Form",
+      "item_count": 96,
+      "domains": 6,
+      "facets": 24,
+      "items_per_facet": 4,
+      "response_format": "Likert_5",
+      "scoring": "GRM-compatible; reverse-scored items: 6-raw; domain = mean of 4 facet means",
+      "status": "complete"
+    },
+    "M2_FC_BLOCKS": {
+      "label": "Forced-Choice Ranking Blocks",
+      "item_count": 100,
+      "blocks": 100,
+      "items_per_block": 3,
+      "domain_combos": 10,
+      "blocks_per_combo": 10,
+      "response_format": "rank_order_triplet",
+      "scoring": "Thurstonian-lite: rank1=+2, rank2=+1, rank3=0; composite = 30% FC + 70% Likert",
+      "status": "complete"
+    },
+    "M3_SJT": {
+      "label": "Situational Judgment Test",
+      "item_count": 60,
+      "constructs": ["Teamwork","Leadership","Self-Regulation","Integrity","Empathy-Perspective"],
+      "response_format": "best_most_likely_dual_mode",
+      "scoring": "Expert consensus 0-3; mode A best action; mode B most likely",
+      "status": "data_file_partial"
+    },
+    "M4_COGNITIVE": {
+      "label": "Cognitive Aptitude Battery",
+      "domains": ["Gf","Gc","WM","PS","VC","QR","SA"],
+      "task_types": 14,
+      "response_format": "multiple_choice_4opt",
+      "scoring": "3PL IRT for dichotomous; Rasch-speed for PS",
+      "status": "data_file_complete"
+    },
+    "M5_RIASEC": {
+      "label": "Occupational Interests",
+      "types": ["Realistic","Investigative","Artistic","Social","Enterprising","Conventional"],
+      "response_format": "Likert_5",
+      "scoring": "Holland congruence; Iachan differentiation index",
+      "status": "pending"
+    },
+    "M6_SCHWARTZ": {
+      "label": "Schwartz 19 Values",
+      "values": 19,
+      "higher_order_quadrants": 4,
+      "response_format": "ipsative_ranking",
+      "scoring": "Circumplex structure; higher-order orientation",
+      "status": "pending"
+    }
+  },
+  "score_inventory": [
+    {"id":"BF_N","label":"Neuroticism / Negative Emotionality","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"BF_E","label":"Extraversion","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"BF_O","label":"Openness to Experience","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"BF_A","label":"Agreeableness","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"BF_C","label":"Conscientiousness","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_H","label":"Honesty-Humility","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_E","label":"Emotionality","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_X","label":"eXtraversion","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_A","label":"Agreeableness","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_C","label":"Conscientiousness","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"HEX_O","label":"Openness","module":"M1","scale":"T_score","range":[20,80]},
+    {"id":"COG_G","label":"General Cognitive Ability (g)","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_GF","label":"Fluid Reasoning","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_GC","label":"Crystallized Intelligence","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_WM","label":"Working Memory","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_PS","label":"Processing Speed","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_VC","label":"Verbal Comprehension","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_QR","label":"Quantitative Reasoning","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"COG_SA","label":"Spatial Ability","module":"M4","scale":"T_score","range":[20,80]},
+    {"id":"SJT_TW","label":"Teamwork","module":"M3","scale":"raw_sum","range":[0,36]},
+    {"id":"SJT_LD","label":"Leadership","module":"M3","scale":"raw_sum","range":[0,32]},
+    {"id":"SJT_SR","label":"Self-Regulation","module":"M3","scale":"raw_sum","range":[0,28]},
+    {"id":"SJT_IA","label":"Integrity","module":"M3","scale":"raw_sum","range":[0,28]},
+    {"id":"SJT_EP","label":"Empathy-Perspective","module":"M3","scale":"raw_sum","range":[0,28]},
+    {"id":"RIASEC_R","label":"Realistic","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"RIASEC_I","label":"Investigative","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"RIASEC_A","label":"Artistic","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"RIASEC_S","label":"Social","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"RIASEC_E","label":"Enterprising","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"RIASEC_C","label":"Conventional","module":"M5","scale":"T_score","range":[20,80]},
+    {"id":"VAL_ST","label":"Self-Transcendence (Universalism + Benevolence)","module":"M6","scale":"rank_mean","range":[1,19]},
+    {"id":"VAL_OC","label":"Openness to Change (Self-Direction + Stimulation)","module":"M6","scale":"rank_mean","range":[1,19]},
+    {"id":"VAL_SE","label":"Self-Enhancement (Power + Achievement)","module":"M6","scale":"rank_mean","range":[1,19]},
+    {"id":"VAL_CO","label":"Conservation (Conformity + Security + Tradition)","module":"M6","scale":"rank_mean","range":[1,19]}
+  ],
+  "score_bands": [
+    {"label":"Exceptionally Low","percentile_max":7,"t_max":36},
+    {"label":"Very Low","percentile_min":8,"percentile_max":16,"t_min":37,"t_max":42},
+    {"label":"Low Average","percentile_min":17,"percentile_max":29,"t_min":43,"t_max":46},
+    {"label":"Average","percentile_min":30,"percentile_max":70,"t_min":47,"t_max":53},
+    {"label":"High Average","percentile_min":71,"percentile_max":83,"t_min":54,"t_max":57},
+    {"label":"High","percentile_min":84,"percentile_max":92,"t_min":58,"t_max":63},
+    {"label":"Exceptionally High","percentile_min":93,"t_min":64}
+  ],
+  "psychometric_targets": {
+    "omega_total_minimum": 0.80,
+    "omega_h_minimum": 0.65,
+    "cat_se_stopping_rule": 0.32,
+    "dif_threshold_delta_r2": 0.035,
+    "invariance_delta_cfi_threshold": 0.010,
+    "invariance_delta_rmsea_threshold": 0.015,
+    "pilot_sample_minimum": 300,
+    "calibration_sample_minimum": 1000
+  }
+}
